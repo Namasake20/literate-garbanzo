@@ -13,4 +13,5 @@ public class User {
     String username;
     @Column(name = "password_hash")
     String password;
+    Integer status;
 }
